@@ -2,7 +2,6 @@ const mongoose = require("mongoose");
 
 const courseSchema = new mongoose.Schema(
   {
-    id: { type: Number, required: true, unique: true },
     name: { type: String, required: true },
     instructor: { type: String, required: true },
     description: { type: String, required: true },
@@ -25,12 +24,13 @@ const courseSchema = new mongoose.Schema(
     ],
     students: [
       {
-        id: { type: Number, required: true },
         name: { type: String, required: true },
         email: { type: String, required: true },
       },
     ],
     likes: { type: Number, default: 0 }, // New field to track likes
+    rating: { type: Number, default: 0 }, // New field to track rating
+    reviews: { type: Number, default: 0 }, // New field to track reviews
   },
   { timestamps: true }
 );

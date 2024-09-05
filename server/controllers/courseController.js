@@ -8,14 +8,14 @@ exports.getCourses = async (req, res, next) => {
     const skip = (page - 1) * limit;
 
     const courses = await Course.find()
-      .select("id name instructor description students.name likes thumbnail")
+      .select("_id name instructor description students.name likes thumbnail")
       .skip(skip)
       .limit(limit);
 
     const totalCourses = await Course.countDocuments();
 
     const formattedCourses = courses.map((course) => ({
-      id: course.id,
+      _id: course._id,
       name: course.name,
       instructor: course.instructor,
       description: course.description,
@@ -38,12 +38,17 @@ exports.getCourses = async (req, res, next) => {
 // Fetch a single course by ID
 exports.getCourseById = async (req, res, next) => {
   try {
-    const course = await Course.findById(req.params.id);
+    const courseId = req.params.id;
+    if (!courseId) {
+      return res.status(400).json({ message: "Course ID is required" });
+    }
+    const course = await Course.findById(courseId);
     if (!course) {
       return res.status(404).json({ message: "Course not found" });
     }
     res.status(200).json(course);
   } catch (error) {
+    console.error("Error fetching course by ID:", error);
     next(error);
   }
 };

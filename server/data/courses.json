@@ -1,706 +1,697 @@
 [
-    {
-        "id": 1,
-        "name": "Introduction to React Native",
-        "instructor": "John Doe",
-        "description": "Learn the basics of React Native development and build your first mobile app.",
-        "enrollmentStatus": "Open",
-        "thumbnail": "https://via.placeholder.com/150x100?text=React+Native",
-        "duration": "8 weeks",
-        "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
-        "location": "Online",
-        "prerequisites": [
-            "Basic JavaScript knowledge",
-            "Familiarity with React"
-        ],
-        "syllabus": [
-            {
-                "week": 1,
-                "topic": "Introduction to React Native",
-                "content": "Overview of React Native, setting up your development environment."
-            },
-            {
-                "week": 2,
-                "topic": "Building Your First App",
-                "content": "Creating a simple mobile app using React Native components."
-            },
-            {
-                "week": 3,
-                "topic": "Styling in React Native",
-                "content": "Learn about styling components and using StyleSheet in React Native."
-            },
-            {
-                "week": 4,
-                "topic": "Navigation in React Native",
-                "content": "Implement navigation between screens using React Navigation."
-            },
-            {
-                "week": 5,
-                "topic": "State Management",
-                "content": "Manage state in React Native apps using Redux and Context API."
-            },
-            {
-                "week": 6,
-                "topic": "Networking and APIs",
-                "content": "Fetch data from APIs and handle network requests in React Native."
-            },
-            {
-                "week": 7,
-                "topic": "Performance Optimization",
-                "content": "Optimize the performance of your React Native applications."
-            },
-            {
-                "week": 8,
-                "topic": "Publishing Your App",
-                "content": "Prepare and publish your React Native app to the Google Play Store and Apple App Store."
-            }
-        ],
-        "students": [
-            {
-                "id": 101,
-                "name": "Alice Johnson",
-                "email": "alice@example.com"
-            },
-            {
-                "id": 102,
-                "name": "Bob Smith",
-                "email": "bob@example.com"
-            }
-        ],
-        "likes": 0
-    },
-    {
-        "id": 2,
-        "name": "Introduction to Python",
-        "instructor": "Jane Smith",
-        "description": "Learn Python programming from scratch.",
-        "enrollmentStatus": "Open",
-        "thumbnail": "https://via.placeholder.com/150x100?text=Python",
-        "duration": "10 weeks",
-        "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
-        "location": "Online",
-        "prerequisites": [
-            "Basic programming knowledge"
-        ],
-        "syllabus": [
-            {
-                "week": 1,
-                "topic": "Python Basics",
-                "content": "Introduction to Python and setting up the environment."
-            },
-            {
-                "week": 2,
-                "topic": "Data Types and Variables",
-                "content": "Understanding Python data types and variables."
-            },
-            {
-                "week": 3,
-                "topic": "Control Structures",
-                "content": "Implementing loops, if-else conditions, and switch cases in Python."
-            },
-            {
-                "week": 4,
-                "topic": "Functions and Modules",
-                "content": "Creating functions and using built-in and custom modules."
-            },
-            {
-                "week": 5,
-                "topic": "Working with Lists and Dictionaries",
-                "content": "Manipulating lists, dictionaries, and other data structures."
-            },
-            {
-                "week": 6,
-                "topic": "File Handling",
-                "content": "Reading from and writing to files in Python."
-            },
-            {
-                "week": 7,
-                "topic": "Error Handling",
-                "content": "Understanding and implementing error handling in Python."
-            },
-            {
-                "week": 8,
-                "topic": "Object-Oriented Programming",
-                "content": "Implementing classes, objects, inheritance, and polymorphism."
-            },
-            {
-                "week": 9,
-                "topic": "Working with Libraries",
-                "content": "Introduction to popular Python libraries like NumPy and Pandas."
-            },
-            {
-                "week": 10,
-                "topic": "Project: Building a Python Application",
-                "content": "Building a final project using the concepts learned throughout the course."
-            }
-        ],
-        "students": [
-            {
-                "id": 103,
-                "name": "Charlie Brown",
-                "email": "charlie@example.com"
-            },
-            {
-                "id": 104,
-                "name": "Lucy Van Pelt",
-                "email": "lucy@example.com"
-            }
-        ],
-        "likes": 0
-    },
-    {
-        "id": 3,
-        "name": "Advanced JavaScript",
-        "instructor": "Michael Johnson",
-        "description": "Deep dive into advanced JavaScript concepts, including closures, promises, and async/await.",
-        "enrollmentStatus": "Open",
-        "thumbnail": "https://via.placeholder.com/150x100?text=JavaScript",
-        "duration": "6 weeks",
-        "schedule": "Wednesdays and Fridays, 5:00 PM - 7:00 PM",
-        "location": "Online",
-        "prerequisites": [
-            "Basic knowledge of JavaScript"
-        ],
-        "syllabus": [
-            {
-                "week": 1,
-                "topic": "Closures and Scope",
-                "content": "Understanding closures, scope, and the execution context in JavaScript."
-            },
-            {
-                "week": 2,
-                "topic": "Asynchronous JavaScript",
-                "content": "Delving into callbacks, promises, and async/await in JavaScript."
-            },
-            {
-                "week": 3,
-                "topic": "JavaScript Patterns",
-                "content": "Exploring design patterns in JavaScript, including module, revealing module, and singleton patterns."
-            },
-            {
-                "week": 4,
-                "topic": "Error Handling in JavaScript",
-                "content": "Implementing robust error handling strategies in JavaScript."
-            },
-            {
-                "week": 5,
-                "topic": "JavaScript Performance",
-                "content": "Techniques for optimizing JavaScript code for better performance."
-            },
-            {
-                "week": 6,
-                "topic": "Advanced JavaScript Projects",
-                "content": "Building advanced projects to apply all the concepts learned."
-            }
-        ],
-        "students": [
-            {
-                "id": 105,
-                "name": "Linus van Pelt",
-                "email": "linus@example.com"
-            },
-            {
-                "id": 106,
-                "name": "Sally Brown",
-                "email": "sally@example.com"
-            }
-        ],
-        "likes": 0
-    },
-    {
-        "id": 4,
-        "name": "Web Development Bootcamp",
-        "instructor": "Sara Connor",
-        "description": "A comprehensive bootcamp covering full-stack web development using HTML, CSS, JavaScript, and Node.js.",
-        "enrollmentStatus": "Open",
-        "thumbnail": "https://via.placeholder.com/150x100?text=Web+Development",
-        "duration": "12 weeks",
-        "schedule": "Mondays, Wednesdays, and Fridays, 6:00 PM - 9:00 PM",
-        "location": "Online",
-        "prerequisites": [
-            "Basic understanding of the web"
-        ],
-        "syllabus": [
-            {
-                "week": 1,
-                "topic": "Introduction to Web Development",
-                "content": "Overview of web development and setting up the development environment."
-            },
-            {
-                "week": 2,
-                "topic": "HTML Basics",
-                "content": "Learning the structure of web pages with HTML."
-            },
-            {
-                "week": 3,
-                "topic": "CSS Fundamentals",
-                "content": "Styling web pages using CSS and learning layout techniques."
-            },
-            {
-                "week": 4,
-                "topic": "JavaScript Basics",
-                "content": "Introduction to JavaScript programming for interactivity on web pages."
-            },
-            {
-                "week": 5,
-                "topic": "Advanced CSS",
-                "content": "Advanced styling techniques including Flexbox and Grid."
-            },
-            {
-                "week": 6,
-                "topic": "JavaScript DOM Manipulation",
-                "content": "Working with the DOM and manipulating HTML elements using JavaScript."
-            },
-            {
-                "week": 7,
-                "topic": "Backend Development with Node.js",
-                "content": "Introduction to server-side programming with Node.js."
-            },
-            {
-                "week": 8,
-                "topic": "Express.js",
-                "content": "Building RESTful APIs using Express.js."
-            },
-            {
-                "week": 9,
-                "topic": "Databases with MongoDB",
-                "content": "Storing and retrieving data using MongoDB."
-            },
-            {
-                "week": 10,
-                "topic": "Authentication and Authorization",
-                "content": "Implementing user authentication and authorization."
-            },
-            {
-                "week": 11,
-                "topic": "Deployment",
-                "content": "Deploying web applications to cloud services like Heroku."
-            },
-            {
-                "week": 12,
-                "topic": "Final Project",
-                "content": "Building a full-stack web application as the final project."
-            }
-        ],
-        "students": [
-            {
-                "id": 107,
-                "name": "Peppermint Patty",
-                "email": "patty@example.com"
-            },
-            {
-                "id": 108,
-                "name": "Marcie",
-                "email": "marcie@example.com"
-            }
-        ],
-        "likes": 0
-    },
-    {
-        "id": 5,
-        "name": "Data Science with Python",
-        "instructor": "Alan Turing",
-        "description": "Learn how to analyze data and build data-driven applications using Python.",
-        "enrollmentStatus": "Open",
-        "thumbnail": "https://via.placeholder.com/150x100?text=Data+Science",
-        "duration": "10 weeks",
-        "schedule": "Tuesdays and Thursdays, 7:00 PM - 9:00 PM",
-        "location": "Online",
-        "prerequisites": [
-            "Basic Python programming knowledge"
-        ],
-        "syllabus": [
-            {
-                "week": 1,
-                "topic": "Introduction to Data Science",
-                "content": "Overview of data science and setting up Python for data analysis."
-            },
-            {
-                "week": 2,
-                "topic": "Data Exploration and Cleaning",
-                "content": "Techniques for exploring and cleaning data using Pandas."
-            },
-            {
-                "week": 3,
-                "topic": "Data Visualization",
-                "content": "Creating visualizations using Matplotlib and Seaborn."
-            },
-            {
-                "week": 4,
-                "topic": "Statistical Analysis",
-                "content": "Performing statistical analysis on datasets using Python."
-            },
-            {
-                "week": 5,
-                "topic": "Machine Learning Basics",
-                "content": "Introduction to machine learning algorithms using Scikit-learn."
-            },
-            {
-                "week": 6,
-                "topic": "Supervised Learning",
-                "content": "Building supervised learning models and evaluating their performance."
-            },
-            {
-                "week": 7,
-                "topic": "Unsupervised Learning",
-                "content": "Exploring clustering and dimensionality reduction techniques."
-            },
-            {
-                "week": 8,
-                "topic": "Working with Big Data",
-                "content": "Handling large datasets and working with Apache Spark."
-            },
-            {
-                "week": 9,
-                "topic": "Deep Learning with TensorFlow",
-                "content": "Introduction to deep learning and building neural networks with TensorFlow."
-            },
-            {
-                "week": 10,
-                "topic": "Final Project: Data Science Application",
-                "content": "Building a data science project from start to finish."
-            }
-        ],
-        "students": [
-            {
-                "id": 109,
-                "name": "Schroeder",
-                "email": "schroeder@example.com"
-            },
-            {
-                "id": 110,
-                "name": "Franklin",
-                "email": "franklin@example.com"
-            }
-        ],
-        "likes": 0
-    },
-    {
-        "id": 7,
-        "name": "Machine Learning",
-        "instructor": "Andrew Ng",
-        "description": "Comprehensive introduction to machine learning algorithms and their applications.",
-        "enrollmentStatus": "Open",
-        "thumbnail": "https://via.placeholder.com/150x100?text=Machine+Learning",
-        "duration": "12 weeks",
-        "schedule": "Mondays, Wednesdays, and Fridays, 5:00 PM - 7:00 PM",
-        "location": "Online",
-        "prerequisites": [
-            "Basic knowledge of Python and linear algebra"
-        ],
-        "syllabus": [
-            {
-                "week": 1,
-                "topic": "Introduction to Machine Learning",
-                "content": "Understanding machine learning concepts and setting up the environment."
-            },
-            {
-                "week": 2,
-                "topic": "Linear Regression",
-                "content": "Implementing linear regression for predictive modeling."
-            },
-            {
-                "week": 3,
-                "topic": "Logistic Regression",
-                "content": "Building classification models using logistic regression."
-            },
-            {
-                "week": 4,
-                "topic": "Decision Trees and Random Forests",
-                "content": "Understanding decision trees and ensemble methods."
-            },
-            {
-                "week": 5,
-                "topic": "Support Vector Machines",
-                "content": "Implementing SVMs for classification tasks."
-            },
-            {
-                "week": 6,
-                "topic": "K-Means Clustering",
-                "content": "Exploring clustering algorithms and implementing K-Means."
-            },
-            {
-                "week": 7,
-                "topic": "Neural Networks",
-                "content": "Introduction to neural networks and backpropagation."
-            },
-            {
-                "week": 8,
-                "topic": "Deep Learning with TensorFlow",
-                "content": "Building deep learning models using TensorFlow."
-            },
-            {
-                "week": 9,
-                "topic": "Natural Language Processing",
-                "content": "Applying machine learning techniques to text data."
-            },
-            {
-                "week": 10,
-                "topic": "Reinforcement Learning",
-                "content": "Understanding reinforcement learning and its applications."
-            },
-            {
-                "week": 11,
-                "topic": "Working with Real-World Data",
-                "content": "Handling real-world data and building machine learning pipelines."
-            },
-            {
-                "week": 12,
-                "topic": "Capstone Project",
-                "content": "Building a machine learning model to solve a real-world problem."
-            }
-        ],
-        "students": [
-            {
-                "id": 111,
-                "name": "Violet Gray",
-                "email": "violet@example.com"
-            },
-            {
-                "id": 112,
-                "name": "Shermy",
-                "email": "shermy@example.com"
-            }
-        ],
-        "likes": 0
-    },
-    {
-        "id": 8,
-        "name": "Machine Learning with Python",
-        "instructor": "Ada Lovelace",
-        "description": "Dive deep into machine learning algorithms and their implementation using Python.",
-        "enrollmentStatus": "Open",
-        "thumbnail": "https://via.placeholder.com/150x100?text=Machine+Learning",
-        "duration": "12 weeks",
-        "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
-        "location": "Online",
-        "prerequisites": [
-            "Intermediate Python programming",
-            "Basic understanding of statistics"
-        ],
-        "syllabus": [
-            {
-                "week": 1,
-                "topic": "Introduction to Machine Learning",
-                "content": "Overview of machine learning concepts and algorithms."
-            },
-            {
-                "week": 2,
-                "topic": "Data Preprocessing",
-                "content": "Techniques for cleaning and preparing data for machine learning."
-            },
-            {
-                "week": 3,
-                "topic": "Supervised Learning: Regression",
-                "content": "Linear regression and polynomial regression algorithms."
-            },
-            {
-                "week": 4,
-                "topic": "Supervised Learning: Classification",
-                "content": "Logistic regression and decision trees for classification tasks."
-            },
-            {
-                "week": 5,
-                "topic": "Support Vector Machines",
-                "content": "Understanding and implementing SVMs for classification and regression."
-            },
-            {
-                "week": 6,
-                "topic": "K-Means Clustering",
-                "content": "Exploring clustering algorithms and implementing K-Means."
-            },
-            {
-                "week": 7,
-                "topic": "Neural Networks",
-                "content": "Introduction to neural networks and backpropagation."
-            },
-            {
-                "week": 8,
-                "topic": "Deep Learning with TensorFlow",
-                "content": "Building deep learning models using TensorFlow."
-            },
-            {
-                "week": 9,
-                "topic": "Natural Language Processing",
-                "content": "Applying machine learning techniques to text data."
-            },
-            {
-                "week": 10,
-                "topic": "Reinforcement Learning",
-                "content": "Understanding reinforcement learning and its applications."
-            },
-            {
-                "week": 11,
-                "topic": "Working with Real-World Data",
-                "content": "Handling real-world data and building machine learning pipelines."
-            },
-            {
-                "week": 12,
-                "topic": "Capstone Project",
-                "content": "Building a machine learning model to solve a real-world problem."
-            }
-        ],
-        "students": [
-            {
-                "id": 111,
-                "name": "Violet Gray",
-                "email": "violet@example.com"
-            },
-            {
-                "id": 112,
-                "name": "Shermy",
-                "email": "shermy@example.com"
-            }
-        ],
-        "likes": 0
-    },
-    {
-        "id": 9,
-        "name": "Artificial Intelligence Fundamentals",
-        "instructor": "Ada Lovelace",
-        "description": "Explore the core concepts and applications of Artificial Intelligence.",
-        "enrollmentStatus": "Open",
-        "thumbnail": "https://via.placeholder.com/150x100?text=AI+Fundamentals",
-        "duration": "10 weeks",
-        "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
-        "location": "Online",
-        "prerequisites": [
-            "Basic programming knowledge",
-            "Familiarity with linear algebra and statistics"
-        ],
-        "syllabus": [
-            {
-                "week": 1,
-                "topic": "Introduction to AI",
-                "content": "Overview of AI, its history, and current applications."
-            },
-            {
-                "week": 2,
-                "topic": "Search Algorithms",
-                "content": "Exploring search algorithms like BFS, DFS, and A*."
-            },
-            {
-                "week": 3,
-                "topic": "Knowledge Representation",
-                "content": "Methods for representing knowledge in AI systems."
-            },
-            {
-                "week": 4,
-                "topic": "Machine Learning Basics",
-                "content": "Introduction to supervised and unsupervised learning."
-            },
-            {
-                "week": 5,
-                "topic": "Neural Networks",
-                "content": "Fundamentals of neural networks and deep learning."
-            },
-            {
-                "week": 6,
-                "topic": "Natural Language Processing",
-                "content": "Basic concepts in processing and understanding human language."
-            },
-            {
-                "week": 7,
-                "topic": "Computer Vision",
-                "content": "Introduction to image processing and object recognition."
-            },
-            {
-                "week": 8,
-                "topic": "Robotics",
-                "content": "Basics of robotics and autonomous systems."
-            },
-            {
-                "week": 9,
-                "topic": "Ethics in AI",
-                "content": "Discussing ethical considerations in AI development and deployment."
-            },
-            {
-                "week": 10,
-                "topic": "Future of AI",
-                "content": "Exploring potential future developments and applications of AI."
-            }
-        ],
-        "students": [
-            {
-                "id": 115,
-                "name": "Schroeder",
-                "email": "schroeder@example.com"
-            },
-            {
-                "id": 116,
-                "name": "Franklin",
-                "email": "franklin@example.com"
-            }
-        ],
-        "likes": 0
-    },
-    {
-        "id": 10,
-        "name": "Cloud Computing with AWS",
-        "instructor": "Werner Vogels",
-        "description": "Learn to build and deploy applications on AWS, the leading cloud platform.",
-        "enrollmentStatus": "Open",
-        "thumbnail": "https://via.placeholder.com/150x100?text=AWS",
-        "duration": "8 weeks",
-        "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
-        "location": "Online",
-        "prerequisites": [
-            "Basic knowledge of networking and web applications"
-        ],
-        "syllabus": [
-            {
-                "week": 1,
-                "topic": "Introduction to Cloud Computing",
-                "content": "Understanding the fundamentals of cloud computing and AWS."
-            },
-            {
-                "week": 2,
-                "topic": "AWS Core Services",
-                "content": "Exploring EC2, S3, and RDS services."
-            },
-            {
-                "week": 3,
-                "topic": "Networking in AWS",
-                "content": "Setting up VPCs, subnets, and security groups."
-            },
-            {
-                "week": 4,
-                "topic": "AWS Security",
-                "content": "Implementing security best practices in AWS."
-            },
-            {
-                "week": 5,
-                "topic": "Serverless Computing",
-                "content": "Building serverless applications using AWS Lambda and API Gateway."
-            },
-            {
-                "week": 6,
-                "topic": "Database Management",
-                "content": "Managing databases with AWS RDS and DynamoDB."
-            },
-            {
-                "week": 7,
-                "topic": "AWS Automation",
-                "content": "Automating deployments using AWS CloudFormation and AWS CLI."
-            },
-            {
-                "week": 8,
-                "topic": "Final Project: Deploying a Cloud Application",
-                "content": "Deploying a fully functional application on AWS."
-            }
-        ],
-        "students": [
-            {
-                "id": 113,
-                "name": "Pig-Pen",
-                "email": "pigpen@example.com"
-            },
-            {
-                "id": 114,
-                "name": "Frieda",
-                "email": "frieda@example.com"
-            }
-        ],
-        "likes": 0
-    }
+  {
+    "name": "Introduction to React Native",
+    "instructor": "John Doe",
+    "description": "Learn the basics of React Native development and build your first mobile app.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "https://codewithmosh.com/_next/image?url=https%3A%2F%2Fwww.filepicker.io%2Fapi%2Ffile%2F4C6yPDywSUeWYLyg1h9G&w=384&q=75",
+    "duration": "8 weeks",
+    "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+    "location": "Online",
+    "prerequisites": [
+      "Basic JavaScript knowledge",
+      "Familiarity with React"
+    ],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to React Native",
+        "content": "Overview of React Native, setting up your development environment."
+      },
+      {
+        "week": 2,
+        "topic": "Building Your First App",
+        "content": "Creating a simple mobile app using React Native components."
+      },
+      {
+        "week": 3,
+        "topic": "Styling in React Native",
+        "content": "Learn about styling components and using StyleSheet in React Native."
+      },
+      {
+        "week": 4,
+        "topic": "Navigation in React Native",
+        "content": "Implement navigation between screens using React Navigation."
+      },
+      {
+        "week": 5,
+        "topic": "State Management",
+        "content": "Manage state in React Native apps using Redux and Context API."
+      },
+      {
+        "week": 6,
+        "topic": "Networking and APIs",
+        "content": "Fetch data from APIs and handle network requests in React Native."
+      },
+      {
+        "week": 7,
+        "topic": "Performance Optimization",
+        "content": "Optimize the performance of your React Native applications."
+      },
+      {
+        "week": 8,
+        "topic": "Publishing Your App",
+        "content": "Prepare and publish your React Native app to the Google Play Store and Apple App Store."
+      }
+    ],
+    "students": [
+      {
+        "name": "Alice Johnson",
+        "email": "alice@example.com"
+      },
+      {
+        "name": "Bob Smith",
+        "email": "bob@example.com"
+      }
+    ],
+    "likes": 0,
+    "rating": 1.2,
+    "reviews": 81
+  },
+  {
+    "name": "Introduction to Python",
+    "instructor": "Jane Smith",
+    "description": "Learn Python programming from scratch.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "https://codewithmosh.com/_next/image?url=https%3A%2F%2Fwww.filepicker.io%2Fapi%2Ffile%2FBFMMlbcQvml9HSqXcvNp&w=384&q=75",
+    "duration": "10 weeks",
+    "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+    "location": "Online",
+    "prerequisites": [
+      "Basic programming knowledge"
+    ],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Python Basics",
+        "content": "Introduction to Python and setting up the environment."
+      },
+      {
+        "week": 2,
+        "topic": "Data Types and Variables",
+        "content": "Understanding Python data types and variables."
+      },
+      {
+        "week": 3,
+        "topic": "Control Structures",
+        "content": "Implementing loops, if-else conditions, and switch cases in Python."
+      },
+      {
+        "week": 4,
+        "topic": "Functions and Modules",
+        "content": "Creating functions and using built-in and custom modules."
+      },
+      {
+        "week": 5,
+        "topic": "Working with Lists and Dictionaries",
+        "content": "Manipulating lists, dictionaries, and other data structures."
+      },
+      {
+        "week": 6,
+        "topic": "File Handling",
+        "content": "Reading from and writing to files in Python."
+      },
+      {
+        "week": 7,
+        "topic": "Error Handling",
+        "content": "Understanding and implementing error handling in Python."
+      },
+      {
+        "week": 8,
+        "topic": "Object-Oriented Programming",
+        "content": "Implementing classes, objects, inheritance, and polymorphism."
+      },
+      {
+        "week": 9,
+        "topic": "Working with Libraries",
+        "content": "Introduction to popular Python libraries like NumPy and Pandas."
+      },
+      {
+        "week": 10,
+        "topic": "Project: Building a Python Application",
+        "content": "Building a final project using the concepts learned throughout the course."
+      }
+    ],
+    "students": [
+      {
+        "name": "Charlie Brown",
+        "email": "charlie@example.com"
+      },
+      {
+        "name": "Lucy Van Pelt",
+        "email": "lucy@example.com"
+      }
+    ],
+    "likes": 0,
+    "rating": 3,
+    "reviews": 36
+  },
+  {
+    "name": "Advanced JavaScript",
+    "instructor": "Michael Johnson",
+    "description": "Deep dive into advanced JavaScript concepts, including closures, promises, and async/await.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "https://codewithmosh.com/_next/image?url=https%3A%2F%2Fwww.filepicker.io%2Fapi%2Ffile%2F4JkBtVU9QUwcwFCWi3AV&w=384&q=75",
+    "duration": "6 weeks",
+    "schedule": "Wednesdays and Fridays, 5:00 PM - 7:00 PM",
+    "location": "Online",
+    "prerequisites": [
+      "Basic knowledge of JavaScript"
+    ],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Closures and Scope",
+        "content": "Understanding closures, scope, and the execution context in JavaScript."
+      },
+      {
+        "week": 2,
+        "topic": "Asynchronous JavaScript",
+        "content": "Delving into callbacks, promises, and async/await in JavaScript."
+      },
+      {
+        "week": 3,
+        "topic": "JavaScript Patterns",
+        "content": "Exploring design patterns in JavaScript, including module, revealing module, and singleton patterns."
+      },
+      {
+        "week": 4,
+        "topic": "Error Handling in JavaScript",
+        "content": "Implementing robust error handling strategies in JavaScript."
+      },
+      {
+        "week": 5,
+        "topic": "JavaScript Performance",
+        "content": "Techniques for optimizing JavaScript code for better performance."
+      },
+      {
+        "week": 6,
+        "topic": "Advanced JavaScript Projects",
+        "content": "Building advanced projects to apply all the concepts learned."
+      }
+    ],
+    "students": [
+      {
+        "name": "Linus van Pelt",
+        "email": "linus@example.com"
+      },
+      {
+        "name": "Sally Brown",
+        "email": "sally@example.com"
+      }
+    ],
+    "likes": 0,
+    "rating": 4.3,
+    "reviews": 56
+  },
+  {
+    "name": "Web Development Bootcamp",
+    "instructor": "Sara Connor",
+    "description": "A comprehensive bootcamp covering full-stack web development using HTML, CSS, JavaScript, and Node.js.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "https://codewithmosh.com/_next/image?url=https%3A%2F%2Fwww.filepicker.io%2Fapi%2Ffile%2FedIpeHvoS2qAvC0F76B8&w=384&q=75",
+    "duration": "12 weeks",
+    "schedule": "Mondays, Wednesdays, and Fridays, 6:00 PM - 9:00 PM",
+    "location": "Online",
+    "prerequisites": [
+      "Basic understanding of the web"
+    ],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Web Development",
+        "content": "Overview of web development and setting up the development environment."
+      },
+      {
+        "week": 2,
+        "topic": "HTML Basics",
+        "content": "Learning the structure of web pages with HTML."
+      },
+      {
+        "week": 3,
+        "topic": "CSS Fundamentals",
+        "content": "Styling web pages using CSS and learning layout techniques."
+      },
+      {
+        "week": 4,
+        "topic": "JavaScript Basics",
+        "content": "Introduction to JavaScript programming for interactivity on web pages."
+      },
+      {
+        "week": 5,
+        "topic": "Advanced CSS",
+        "content": "Advanced styling techniques including Flexbox and Grid."
+      },
+      {
+        "week": 6,
+        "topic": "JavaScript DOM Manipulation",
+        "content": "Working with the DOM and manipulating HTML elements using JavaScript."
+      },
+      {
+        "week": 7,
+        "topic": "Backend Development with Node.js",
+        "content": "Introduction to server-side programming with Node.js."
+      },
+      {
+        "week": 8,
+        "topic": "Express.js",
+        "content": "Building RESTful APIs using Express.js."
+      },
+      {
+        "week": 9,
+        "topic": "Databases with MongoDB",
+        "content": "Storing and retrieving data using MongoDB."
+      },
+      {
+        "week": 10,
+        "topic": "Authentication and Authorization",
+        "content": "Implementing user authentication and authorization."
+      },
+      {
+        "week": 11,
+        "topic": "Deployment",
+        "content": "Deploying web applications to cloud services like Heroku."
+      },
+      {
+        "week": 12,
+        "topic": "Final Project",
+        "content": "Building a full-stack web application as the final project."
+      }
+    ],
+    "students": [
+      {
+        "name": "Peppermint Patty",
+        "email": "patty@example.com"
+      },
+      {
+        "name": "Marcie",
+        "email": "marcie@example.com"
+      }
+    ],
+    "likes": 0,
+    "rating": 1,
+    "reviews": 23
+  },
+  {
+    "name": "Data Science with Python",
+    "instructor": "Alan Turing",
+    "description": "Learn how to analyze data and build data-driven applications using Python.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "https://codewithmosh.com/_next/image?url=https%3A%2F%2Fwww.filepicker.io%2Fapi%2Ffile%2FFjpqrSFwSvGCTL3cCqPt&w=384&q=75",
+    "duration": "10 weeks",
+    "schedule": "Tuesdays and Thursdays, 7:00 PM - 9:00 PM",
+    "location": "Online",
+    "prerequisites": [
+      "Basic Python programming knowledge"
+    ],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Data Science",
+        "content": "Overview of data science and setting up Python for data analysis."
+      },
+      {
+        "week": 2,
+        "topic": "Data Exploration and Cleaning",
+        "content": "Techniques for exploring and cleaning data using Pandas."
+      },
+      {
+        "week": 3,
+        "topic": "Data Visualization",
+        "content": "Creating visualizations using Matplotlib and Seaborn."
+      },
+      {
+        "week": 4,
+        "topic": "Statistical Analysis",
+        "content": "Performing statistical analysis on datasets using Python."
+      },
+      {
+        "week": 5,
+        "topic": "Machine Learning Basics",
+        "content": "Introduction to machine learning algorithms using Scikit-learn."
+      },
+      {
+        "week": 6,
+        "topic": "Supervised Learning",
+        "content": "Building supervised learning models and evaluating their performance."
+      },
+      {
+        "week": 7,
+        "topic": "Unsupervised Learning",
+        "content": "Exploring clustering and dimensionality reduction techniques."
+      },
+      {
+        "week": 8,
+        "topic": "Working with Big Data",
+        "content": "Handling large datasets and working with Apache Spark."
+      },
+      {
+        "week": 9,
+        "topic": "Deep Learning with TensorFlow",
+        "content": "Introduction to deep learning and building neural networks with TensorFlow."
+      },
+      {
+        "week": 10,
+        "topic": "Final Project: Data Science Application",
+        "content": "Building a data science project from start to finish."
+      }
+    ],
+    "students": [
+      {
+        "name": "Schroeder",
+        "email": "schroeder@example.com"
+      },
+      {
+        "name": "Franklin",
+        "email": "franklin@example.com"
+      }
+    ],
+    "likes": 0,
+    "rating": 4.5,
+    "reviews": 73
+  },
+  {
+    "name": "Machine Learning",
+    "instructor": "Andrew Ng",
+    "description": "Comprehensive introduction to machine learning algorithms and their applications.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "https://codewithmosh.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2FkKp6dGccTTa0XNu73THP&w=384&q=75",
+    "duration": "12 weeks",
+    "schedule": "Mondays, Wednesdays, and Fridays, 5:00 PM - 7:00 PM",
+    "location": "Online",
+    "prerequisites": [
+      "Basic knowledge of Python and linear algebra"
+    ],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Machine Learning",
+        "content": "Understanding machine learning concepts and setting up the environment."
+      },
+      {
+        "week": 2,
+        "topic": "Linear Regression",
+        "content": "Implementing linear regression for predictive modeling."
+      },
+      {
+        "week": 3,
+        "topic": "Logistic Regression",
+        "content": "Building classification models using logistic regression."
+      },
+      {
+        "week": 4,
+        "topic": "Decision Trees and Random Forests",
+        "content": "Understanding decision trees and ensemble methods."
+      },
+      {
+        "week": 5,
+        "topic": "Support Vector Machines",
+        "content": "Implementing SVMs for classification tasks."
+      },
+      {
+        "week": 6,
+        "topic": "K-Means Clustering",
+        "content": "Exploring clustering algorithms and implementing K-Means."
+      },
+      {
+        "week": 7,
+        "topic": "Neural Networks",
+        "content": "Introduction to neural networks and backpropagation."
+      },
+      {
+        "week": 8,
+        "topic": "Deep Learning with TensorFlow",
+        "content": "Building deep learning models using TensorFlow."
+      },
+      {
+        "week": 9,
+        "topic": "Natural Language Processing",
+        "content": "Applying machine learning techniques to text data."
+      },
+      {
+        "week": 10,
+        "topic": "Reinforcement Learning",
+        "content": "Understanding reinforcement learning and its applications."
+      },
+      {
+        "week": 11,
+        "topic": "Working with Real-World Data",
+        "content": "Handling real-world data and building machine learning pipelines."
+      },
+      {
+        "week": 12,
+        "topic": "Capstone Project",
+        "content": "Building a machine learning model to solve a real-world problem."
+      }
+    ],
+    "students": [
+      {
+        "name": "Violet Gray",
+        "email": "violet@example.com"
+      },
+      {
+        "name": "Shermy",
+        "email": "shermy@example.com"
+      }
+    ],
+    "likes": 0,
+    "rating": 3.9,
+    "reviews": 84
+  },
+  {
+    "name": "Machine Learning with Python",
+    "instructor": "Ada Lovelace",
+    "description": "Dive deep into machine learning algorithms and their implementation using Python.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "https://via.placeholder.com/150x100?text=Machine+Learning",
+    "duration": "12 weeks",
+    "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+    "location": "Online",
+    "prerequisites": [
+      "Intermediate Python programming",
+      "Basic understanding of statistics"
+    ],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Machine Learning",
+        "content": "Overview of machine learning concepts and algorithms."
+      },
+      {
+        "week": 2,
+        "topic": "Data Preprocessing",
+        "content": "Techniques for cleaning and preparing data for machine learning."
+      },
+      {
+        "week": 3,
+        "topic": "Supervised Learning: Regression",
+        "content": "Linear regression and polynomial regression algorithms."
+      },
+      {
+        "week": 4,
+        "topic": "Supervised Learning: Classification",
+        "content": "Logistic regression and decision trees for classification tasks."
+      },
+      {
+        "week": 5,
+        "topic": "Support Vector Machines",
+        "content": "Understanding and implementing SVMs for classification and regression."
+      },
+      {
+        "week": 6,
+        "topic": "K-Means Clustering",
+        "content": "Exploring clustering algorithms and implementing K-Means."
+      },
+      {
+        "week": 7,
+        "topic": "Neural Networks",
+        "content": "Introduction to neural networks and backpropagation."
+      },
+      {
+        "week": 8,
+        "topic": "Deep Learning with TensorFlow",
+        "content": "Building deep learning models using TensorFlow."
+      },
+      {
+        "week": 9,
+        "topic": "Natural Language Processing",
+        "content": "Applying machine learning techniques to text data."
+      },
+      {
+        "week": 10,
+        "topic": "Reinforcement Learning",
+        "content": "Understanding reinforcement learning and its applications."
+      },
+      {
+        "week": 11,
+        "topic": "Working with Real-World Data",
+        "content": "Handling real-world data and building machine learning pipelines."
+      },
+      {
+        "week": 12,
+        "topic": "Capstone Project",
+        "content": "Building a machine learning model to solve a real-world problem."
+      }
+    ],
+    "students": [
+      {
+        "name": "Violet Gray",
+        "email": "violet@example.com"
+      },
+      {
+        "name": "Shermy",
+        "email": "shermy@example.com"
+      }
+    ],
+    "likes": 0,
+    "rating": 4.2,
+    "reviews": 53
+  },
+  {
+    "name": "Artificial Intelligence Fundamentals",
+    "instructor": "Ada Lovelace",
+    "description": "Explore the core concepts and applications of Artificial Intelligence.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "https://via.placeholder.com/150x100?text=AI+Fundamentals",
+    "duration": "10 weeks",
+    "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+    "location": "Online",
+    "prerequisites": [
+      "Basic programming knowledge",
+      "Familiarity with linear algebra and statistics"
+    ],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to AI",
+        "content": "Overview of AI, its history, and current applications."
+      },
+      {
+        "week": 2,
+        "topic": "Search Algorithms",
+        "content": "Exploring search algorithms like BFS, DFS, and A*."
+      },
+      {
+        "week": 3,
+        "topic": "Knowledge Representation",
+        "content": "Methods for representing knowledge in AI systems."
+      },
+      {
+        "week": 4,
+        "topic": "Machine Learning Basics",
+        "content": "Introduction to supervised and unsupervised learning."
+      },
+      {
+        "week": 5,
+        "topic": "Neural Networks",
+        "content": "Fundamentals of neural networks and deep learning."
+      },
+      {
+        "week": 6,
+        "topic": "Natural Language Processing",
+        "content": "Basic concepts in processing and understanding human language."
+      },
+      {
+        "week": 7,
+        "topic": "Computer Vision",
+        "content": "Introduction to image processing and object recognition."
+      },
+      {
+        "week": 8,
+        "topic": "Robotics",
+        "content": "Basics of robotics and autonomous systems."
+      },
+      {
+        "week": 9,
+        "topic": "Ethics in AI",
+        "content": "Discussing ethical considerations in AI development and deployment."
+      },
+      {
+        "week": 10,
+        "topic": "Future of AI",
+        "content": "Exploring potential future developments and applications of AI."
+      }
+    ],
+    "students": [
+      {
+        "name": "Schroeder",
+        "email": "schroeder@example.com"
+      },
+      {
+        "name": "Franklin",
+        "email": "franklin@example.com"
+      }
+    ],
+    "likes": 0,
+    "rating": 2.8,
+    "reviews": 7
+  },
+  {
+    "name": "Cloud Computing with AWS",
+    "instructor": "Werner Vogels",
+    "description": "Learn to build and deploy applications on AWS, the leading cloud platform.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "https://via.placeholder.com/150x100?text=AWS",
+    "duration": "8 weeks",
+    "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+    "location": "Online",
+    "prerequisites": [
+      "Basic knowledge of networking and web applications"
+    ],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Cloud Computing",
+        "content": "Understanding the fundamentals of cloud computing and AWS."
+      },
+      {
+        "week": 2,
+        "topic": "AWS Core Services",
+        "content": "Exploring EC2, S3, and RDS services."
+      },
+      {
+        "week": 3,
+        "topic": "Networking in AWS",
+        "content": "Setting up VPCs, subnets, and security groups."
+      },
+      {
+        "week": 4,
+        "topic": "AWS Security",
+        "content": "Implementing security best practices in AWS."
+      },
+      {
+        "week": 5,
+        "topic": "Serverless Computing",
+        "content": "Building serverless applications using AWS Lambda and API Gateway."
+      },
+      {
+        "week": 6,
+        "topic": "Database Management",
+        "content": "Managing databases with AWS RDS and DynamoDB."
+      },
+      {
+        "week": 7,
+        "topic": "AWS Automation",
+        "content": "Automating deployments using AWS CloudFormation and AWS CLI."
+      },
+      {
+        "week": 8,
+        "topic": "Final Project: Deploying a Cloud Application",
+        "content": "Deploying a fully functional application on AWS."
+      }
+    ],
+    "students": [
+      {
+        "name": "Pig-Pen",
+        "email": "pigpen@example.com"
+      },
+      {
+        "name": "Frieda",
+        "email": "frieda@example.com"
+      }
+    ],
+    "likes": 0,
+    "rating": 3.5,
+    "reviews": 66
+  }
 ]
