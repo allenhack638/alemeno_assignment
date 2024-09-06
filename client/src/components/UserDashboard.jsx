@@ -1,17 +1,16 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Navbar from "./Navbar";
 import { useDispatch, useSelector } from "react-redux";
-import { Link } from "react-router-dom";
-import {
-  toggleCompletion,
-  updateCourseDetails,
-} from "../redux/slices/studentsSlice";
-import { API_BASE_URL } from "../globalVariables";
-import useCourseFetcher from "../hooks/useCourseFetcher";
+import { toggleCompletion } from "../redux/slices/studentsSlice";
+import useEnrolledCourseFetcher from "../hooks/useEnrolledCourseFetcher";
+import ProgressBar from "./ProgressBar";
+import { calculateEndDate } from "../functions";
+import EmptyCourseList from "./ErrorCards/EmptyCourseList";
 
 const UserDashboard = () => {
   const dispatch = useDispatch();
-  const { loading } = useCourseFetcher();
+  useEnrolledCourseFetcher();
+
   const enrolledCourses = useSelector(
     (state) => state.students.enrolledCourses
   );
@@ -21,14 +20,7 @@ const UserDashboard = () => {
       <Navbar />
       <div className="container mx-auto mt-6 flex flex-col items-center justify-center gap-10 p-0 rounded-lg max-w-7xl px-4 pb-10">
         {enrolledCourses.length === 0 ? (
-          <div className="text-center">
-            <p className="text-2xl font-bold mb-4">
-              You have not enrolled for any course till now.
-            </p>
-            <Link to="/" className="text-blue-500 underline">
-              Go to Home Page
-            </Link>
-          </div>
+          <EmptyCourseList />
         ) : (
           <div className="flex flex-col gap-10 w-full">
             <h1 className="text-2xl font-bold ">Enrolled Courses</h1>
@@ -45,25 +37,25 @@ const UserDashboard = () => {
                   duration,
                 } = course;
 
-                // Calculate the due date by adding duration to enrolledDate
-                const enrolledDateObj = new Date(enrolledDate);
-                const dueDate = new Date(
-                  enrolledDateObj.setDate(
-                    enrolledDateObj.getDate() + duration * 7
-                  ) // assuming 'duration' is in weeks
-                ).toLocaleDateString();
+                const dueDate = calculateEndDate(enrolledDate, duration);
 
                 return (
                   <div
                     key={course_id}
-                    className="card card-side bg-base-100 shadow-[0_0px_15px_rgba(255,255,255,0.2)] flex items-center w-full"
+                    className="card card-side bg-base-100 shadow-[0_0px_15px_rgba(255,255,255,0.2)] flex items-center w-full flex-col sm:flex-row"
                   >
                     <div className="card-body">
-                      <h2 className="card-title">{name}</h2>
-                      <p>Instructor: {instructor}</p>
-                      <p>Due Date: {dueDate}</p>
+                      <h2 className="card-title text-white">{name}</h2>
+                      <p>
+                        <span className="font-bold">Instructor: </span>
+                        {instructor}
+                      </p>
+                      <p>
+                        <span className="font-bold">Due Date: </span>
+                        {dueDate}
+                      </p>
                       <p className="flex items-center">
-                        Status:{" "}
+                        <span className="font-bold">Status: </span>
                         <span
                           className={`ml-2 badge ${
                             courseCompleted ? "badge-success" : "badge-error"
@@ -73,7 +65,24 @@ const UserDashboard = () => {
                         </span>
                       </p>
 
-                      {/* Toggle Button */}
+                      <div className="flex items-center gap-2">
+                        <span className="font-bold">Progress: </span>
+                        <ProgressBar
+                          progress={courseCompleted ? 100 : 8}
+                          width="w-48"
+                          className={`${
+                            courseCompleted ? "bg-green-500" : "bg-red-500"
+                          }`}
+                        />
+                        <span
+                          className={`${
+                            courseCompleted ? "text-green-500" : "text-red-500"
+                          }`}
+                        >
+                          {courseCompleted ? "100%" : "8%"}
+                        </span>
+                      </div>
+
                       <div className="form-control mt-4 w-max">
                         <label className="cursor-pointer label flex items-center gap-2">
                           <span className="label-text">Mark as Completed</span>
@@ -89,7 +98,7 @@ const UserDashboard = () => {
                       </div>
                     </div>
 
-                    <figure className="p-4">
+                    <figure className="p-4 hidden md:block">
                       <img
                         src={thumbnail}
                         alt={name}

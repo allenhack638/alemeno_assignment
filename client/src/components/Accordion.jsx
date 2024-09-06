@@ -1,16 +1,13 @@
 import React, { useState } from "react";
+import { MdOutlineExpandLess, MdOutlineExpandMore } from "react-icons/md";
 
-import { MdOutlineExpandLess } from "react-icons/md";
-import { MdOutlineExpandMore } from "react-icons/md";
-
-// AccordionItem component
-const AccordionItem = ({ week, topic, content, id }) => {
+const AccordionItem = ({ week, topic, content }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className="border border-gray-300 rounded-lg shadow-md mb-2 overflow-hidden">
       <button
-        className="w-full px-4 py-2 text-left font-bold rounded-t-lg focus:outline-none flex justify-between items-center"
+        className="w-full px-4 py-2 text-left font-bold focus:outline-none flex justify-between items-center"
         onClick={() => setIsOpen(!isOpen)}
       >
         <span>
@@ -33,7 +30,7 @@ const AccordionItem = ({ week, topic, content, id }) => {
           isOpen ? "max-h-[1000px] opacity-100" : "max-h-0 opacity-0"
         }`}
       >
-        <div className="p-2 px-4 bg-gray-100 rounded-b-lg text-black">
+        <div className="p-4 bg-gray-100 text-black">
           <p>{content}</p>
         </div>
       </div>
@@ -41,18 +38,13 @@ const AccordionItem = ({ week, topic, content, id }) => {
   );
 };
 
-// Accordion component
 const Accordion = ({ syllabus }) => {
+  if (!syllabus) return null;
+
   return (
-    <div className="max-w-3xl pl-12">
+    <div className="max-w-3xl md:pl-12 px-4 md:px-0">
       {syllabus.map(({ week, topic, content, _id }) => (
-        <AccordionItem
-          key={_id}
-          week={week}
-          topic={topic}
-          content={content}
-          id={_id}
-        />
+        <AccordionItem key={_id} week={week} topic={topic} content={content} />
       ))}
     </div>
   );

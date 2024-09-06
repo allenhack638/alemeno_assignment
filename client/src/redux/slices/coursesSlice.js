@@ -9,9 +9,26 @@ const coursesSlice = createSlice({
     currentPage: 1,
     totalPages: 1,
     error: null,
+    likedCourses: [],
   },
   reducers: {
-    // Define synchronous reducers here if needed
+    likeCourse: (state, action) => {
+      if (!state.likedCourses.includes(action.payload)) {
+        state.likedCourses.push(action.payload);
+      }
+    },
+    unlikeCourse: (state, action) => {
+      state.likedCourses = state.likedCourses.filter(
+        (id) => id !== action.payload
+      );
+    },
+    updateLikeCount: (state, action) => {
+      const { id, likes } = action.payload;
+      const course = state.courses.find((c) => c._id === id);
+      if (course) {
+        course.likes = likes;
+      }
+    },
   },
   extraReducers: (builder) => {
     builder
@@ -31,5 +48,8 @@ const coursesSlice = createSlice({
       });
   },
 });
+
+export const { likeCourse, unlikeCourse, updateLikeCount } =
+  coursesSlice.actions;
 
 export default coursesSlice.reducer;

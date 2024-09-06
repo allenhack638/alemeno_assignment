@@ -6,6 +6,7 @@ const connectDB = require("./config/db");
 const { initializeWebSocket } = require("./services/webSocketService");
 const courseRoutes = require("./routes/courseRoutes");
 const errorHandler = require("./middleware/errorHandler");
+const rateLimit = require("express-rate-limit");
 
 // Initialize dotenv
 dotenv.config();
@@ -15,6 +16,16 @@ const app = express();
 // Middleware
 app.use(cors());
 app.use(express.json());
+
+// Rate Limiting (By IP)
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes window
+  max: 300, // Limit each IP to 100 requests per `window` (15 minutes)
+  message: "Too many requests from this IP, please try again after 15 minutes",
+});
+
+// Apply the rate limiting middleware to all requests
+app.use(limiter);
 
 // Database Connection
 connectDB();

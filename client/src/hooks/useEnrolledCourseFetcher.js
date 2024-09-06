@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { updateCourseDetails } from "../redux/slices/studentsSlice";
 import { API_BASE_URL } from "../globalVariables";
 
-const useCourseFetcher = () => {
+const useEnrolledCourseFetcher = () => {
   const [loading, setLoading] = useState(true);
   const dispatch = useDispatch();
   const enrolledCourses = useSelector(
@@ -38,4 +38,4 @@ const useCourseFetcher = () => {
   return { fetchedCourses, loading };
 };
 
-export default useCourseFetcher;
+export default useEnrolledCourseFetcher;

@@ -1,40 +1,40 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useSelector } from "react-redux";
 
-const SearchBarWithDropdown = () => {
+const SearchBarWithDropdown = ({ setFilteredCourses }) => {
+  const courses = useSelector((state) => state.courses.courses);
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedOption, setSelectedOption] = useState("All Courses");
 
   const handleSearchChange = (e) => {
     setSearchTerm(e.target.value);
   };
 
-  const handleOptionChange = (e) => {
-    setSelectedOption(e.target.value);
-  };
+  useEffect(() => {
+    let updatedCourses = [...courses];
+
+    // Apply search term filtering (matching course name or instructor name)
+    if (searchTerm) {
+      updatedCourses = updatedCourses.filter(
+        (course) =>
+          course.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          course.instructor.toLowerCase().includes(searchTerm.toLowerCase())
+      );
+    }
+
+    // Update the filtered courses in the local state
+    setFilteredCourses(updatedCourses);
+  }, [searchTerm, courses]);
 
   return (
     <div className="flex justify-start items-center space-x-4 w-full">
-      <div className="form-control w-72">
+      <div className="form-control w-full max-w-xl">
         <input
           type="text"
-          placeholder="Search by name..."
-          className="input input-bordered w-full max-w-md"
+          placeholder="Search by course or instructor name..."
+          className="input input-bordered w-full"
           value={searchTerm}
           onChange={handleSearchChange}
         />
-      </div>
-
-      <div className="form-control">
-        <select
-          className="select select-bordered"
-          value={selectedOption}
-          onChange={handleOptionChange}
-        >
-          <option value="All Courses">All Courses</option>
-          <option value="option1">Option 1</option>
-          <option value="option2">Option 2</option>
-          <option value="option3">Option 3</option>
-        </select>
       </div>
     </div>
   );

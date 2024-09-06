@@ -3,7 +3,7 @@
     "name": "Introduction to React Native",
     "instructor": "John Doe",
     "description": "Learn the basics of React Native development and build your first mobile app.",
-    "enrollmentStatus": "Open",
+    "enrollmentStatus": "Closed",
     "thumbnail": "https://codewithmosh.com/_next/image?url=https%3A%2F%2Fwww.filepicker.io%2Fapi%2Ffile%2F4C6yPDywSUeWYLyg1h9G&w=384&q=75",
     "duration": "8 weeks",
     "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
@@ -293,82 +293,103 @@
     "reviews": 23
   },
   {
-    "name": "Data Science with Python",
-    "instructor": "Alan Turing",
-    "description": "Learn how to analyze data and build data-driven applications using Python.",
+    "name": "Data Structures & Algorithms",
+    "instructor": "Robert Sedgewick",
+    "description": "Master essential data structures and algorithms to solve complex computational problems efficiently.",
     "enrollmentStatus": "Open",
     "thumbnail": "https://codewithmosh.com/_next/image?url=https%3A%2F%2Fwww.filepicker.io%2Fapi%2Ffile%2FFjpqrSFwSvGCTL3cCqPt&w=384&q=75",
-    "duration": "10 weeks",
+    "duration": "14 weeks",
     "schedule": "Tuesdays and Thursdays, 7:00 PM - 9:00 PM",
     "location": "Online",
     "prerequisites": [
-      "Basic Python programming knowledge"
+      "Basic understanding of programming",
+      "Familiarity with any programming language"
     ],
     "syllabus": [
       {
         "week": 1,
-        "topic": "Introduction to Data Science",
-        "content": "Overview of data science and setting up Python for data analysis."
+        "topic": "Introduction to Data Structures and Algorithms",
+        "content": "Understanding the importance of data structures and algorithms in problem solving."
       },
       {
         "week": 2,
-        "topic": "Data Exploration and Cleaning",
-        "content": "Techniques for exploring and cleaning data using Pandas."
+        "topic": "Arrays and Strings",
+        "content": "Learning about arrays, strings, and their basic operations."
       },
       {
         "week": 3,
-        "topic": "Data Visualization",
-        "content": "Creating visualizations using Matplotlib and Seaborn."
+        "topic": "Linked Lists",
+        "content": "Understanding the types of linked lists and their use cases."
       },
       {
         "week": 4,
-        "topic": "Statistical Analysis",
-        "content": "Performing statistical analysis on datasets using Python."
+        "topic": "Stacks and Queues",
+        "content": "Implementing stacks and queues for various applications."
       },
       {
         "week": 5,
-        "topic": "Machine Learning Basics",
-        "content": "Introduction to machine learning algorithms using Scikit-learn."
+        "topic": "Hashing and Hash Tables",
+        "content": "Exploring hash tables, collision handling, and their use in efficient data retrieval."
       },
       {
         "week": 6,
-        "topic": "Supervised Learning",
-        "content": "Building supervised learning models and evaluating their performance."
+        "topic": "Recursion and Backtracking",
+        "content": "Solving problems using recursion and understanding the backtracking approach."
       },
       {
         "week": 7,
-        "topic": "Unsupervised Learning",
-        "content": "Exploring clustering and dimensionality reduction techniques."
+        "topic": "Trees and Binary Search Trees",
+        "content": "Learning about tree data structures, traversals, and binary search trees."
       },
       {
         "week": 8,
-        "topic": "Working with Big Data",
-        "content": "Handling large datasets and working with Apache Spark."
+        "topic": "Heaps and Priority Queues",
+        "content": "Implementing heaps and priority queues for sorting and scheduling problems."
       },
       {
         "week": 9,
-        "topic": "Deep Learning with TensorFlow",
-        "content": "Introduction to deep learning and building neural networks with TensorFlow."
+        "topic": "Graphs and Graph Algorithms",
+        "content": "Understanding graphs, their representations, and solving graph-related problems."
       },
       {
         "week": 10,
-        "topic": "Final Project: Data Science Application",
-        "content": "Building a data science project from start to finish."
+        "topic": "Sorting Algorithms",
+        "content": "Exploring different sorting algorithms and their time complexities."
+      },
+      {
+        "week": 11,
+        "topic": "Dynamic Programming",
+        "content": "Solving optimization problems using dynamic programming techniques."
+      },
+      {
+        "week": 12,
+        "topic": "Greedy Algorithms",
+        "content": "Understanding the greedy approach and solving related problems."
+      },
+      {
+        "week": 13,
+        "topic": "Advanced Algorithms",
+        "content": "Exploring advanced algorithms including string matching and network flows."
+      },
+      {
+        "week": 14,
+        "topic": "Final Project: Solving Complex Computational Problems",
+        "content": "Applying data structures and algorithms to solve real-world complex problems."
       }
     ],
     "students": [
       {
-        "name": "Schroeder",
-        "email": "schroeder@example.com"
+        "name": "Donald Knuth",
+        "email": "donald@example.com"
       },
       {
-        "name": "Franklin",
-        "email": "franklin@example.com"
+        "name": "Ada Lovelace",
+        "email": "ada@example.com"
       }
     ],
     "likes": 0,
-    "rating": 4.5,
-    "reviews": 73
+    "rating": 4.9,
+    "reviews": 350
   },
   {
     "name": "Machine Learning",
@@ -459,239 +480,260 @@
     "reviews": 84
   },
   {
-    "name": "Machine Learning with Python",
-    "instructor": "Ada Lovelace",
-    "description": "Dive deep into machine learning algorithms and their implementation using Python.",
+    "name": "The Ultimate Java Mastery Series",
+    "instructor": "James Gosling",
+    "description": "Master Java programming and build scalable, high-performance applications.",
     "enrollmentStatus": "Open",
-    "thumbnail": "https://via.placeholder.com/150x100?text=Machine+Learning",
+    "thumbnail": "https://codewithmosh.com/_next/image?url=https%3A%2F%2Fwww.filepicker.io%2Fapi%2Ffile%2Ft12BZqmRoulvCTDhoYie&w=384&q=75",
     "duration": "12 weeks",
-    "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+    "schedule": "Mondays and Wednesdays, 6:00 PM - 8:00 PM",
     "location": "Online",
     "prerequisites": [
-      "Intermediate Python programming",
-      "Basic understanding of statistics"
+      "Basic understanding of programming concepts",
+      "Familiarity with object-oriented programming"
     ],
     "syllabus": [
       {
         "week": 1,
-        "topic": "Introduction to Machine Learning",
-        "content": "Overview of machine learning concepts and algorithms."
+        "topic": "Introduction to Java",
+        "content": "Understanding the basics of Java and setting up your environment."
       },
       {
         "week": 2,
-        "topic": "Data Preprocessing",
-        "content": "Techniques for cleaning and preparing data for machine learning."
+        "topic": "Java Data Types and Operators",
+        "content": "Exploring primitive data types, operators, and expressions in Java."
       },
       {
         "week": 3,
-        "topic": "Supervised Learning: Regression",
-        "content": "Linear regression and polynomial regression algorithms."
+        "topic": "Control Flow in Java",
+        "content": "Learning about loops, conditionals, and branching in Java."
       },
       {
         "week": 4,
-        "topic": "Supervised Learning: Classification",
-        "content": "Logistic regression and decision trees for classification tasks."
+        "topic": "Object-Oriented Programming in Java",
+        "content": "Mastering classes, objects, constructors, and destructors."
       },
       {
         "week": 5,
-        "topic": "Support Vector Machines",
-        "content": "Understanding and implementing SVMs for classification and regression."
+        "topic": "Inheritance and Polymorphism",
+        "content": "Understanding inheritance, polymorphism, and method overriding."
       },
       {
         "week": 6,
-        "topic": "K-Means Clustering",
-        "content": "Exploring clustering algorithms and implementing K-Means."
+        "topic": "Java Collections Framework",
+        "content": "Working with Lists, Sets, Maps, and other collection interfaces."
       },
       {
         "week": 7,
-        "topic": "Neural Networks",
-        "content": "Introduction to neural networks and backpropagation."
+        "topic": "Exception Handling in Java",
+        "content": "Handling exceptions and ensuring robust error management."
       },
       {
         "week": 8,
-        "topic": "Deep Learning with TensorFlow",
-        "content": "Building deep learning models using TensorFlow."
+        "topic": "Java Streams API",
+        "content": "Working with streams for efficient data processing."
       },
       {
         "week": 9,
-        "topic": "Natural Language Processing",
-        "content": "Applying machine learning techniques to text data."
+        "topic": "Multithreading and Concurrency",
+        "content": "Building multi-threaded applications and managing concurrency."
       },
       {
         "week": 10,
-        "topic": "Reinforcement Learning",
-        "content": "Understanding reinforcement learning and its applications."
+        "topic": "Working with Databases in Java",
+        "content": "Using JDBC and ORM frameworks like Hibernate to manage databases."
       },
       {
         "week": 11,
-        "topic": "Working with Real-World Data",
-        "content": "Handling real-world data and building machine learning pipelines."
+        "topic": "Java 8+ Features",
+        "content": "Exploring new Java features like lambda expressions and functional interfaces."
       },
       {
         "week": 12,
-        "topic": "Capstone Project",
-        "content": "Building a machine learning model to solve a real-world problem."
+        "topic": "Final Project: Building a Java Application",
+        "content": "Building and deploying a complete Java application."
       }
     ],
     "students": [
       {
-        "name": "Violet Gray",
-        "email": "violet@example.com"
+        "name": "Grace Hopper",
+        "email": "grace@example.com"
       },
       {
-        "name": "Shermy",
-        "email": "shermy@example.com"
+        "name": "Dennis Ritchie",
+        "email": "dennis@example.com"
       }
     ],
     "likes": 0,
-    "rating": 4.2,
-    "reviews": 53
+    "rating": 4.9,
+    "reviews": 200
   },
   {
-    "name": "Artificial Intelligence Fundamentals",
-    "instructor": "Ada Lovelace",
-    "description": "Explore the core concepts and applications of Artificial Intelligence.",
+    "name": "The Ultimate Next.js Series",
+    "instructor": "Vercel Team",
+    "description": "Master Next.js and build production-ready, server-side rendered web applications.",
     "enrollmentStatus": "Open",
-    "thumbnail": "https://via.placeholder.com/150x100?text=AI+Fundamentals",
+    "thumbnail": "https://codewithmosh.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2F8MbtJ4hTAaOk3KPcptqZ&w=384&q=75",
     "duration": "10 weeks",
-    "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+    "schedule": "Tuesdays and Thursdays, 7:00 PM - 9:00 PM",
     "location": "Online",
     "prerequisites": [
-      "Basic programming knowledge",
-      "Familiarity with linear algebra and statistics"
+      "Basic understanding of React",
+      "Familiarity with JavaScript and web development concepts"
     ],
     "syllabus": [
       {
         "week": 1,
-        "topic": "Introduction to AI",
-        "content": "Overview of AI, its history, and current applications."
+        "topic": "Introduction to Next.js",
+        "content": "Understanding the basics of Next.js and how it extends React."
       },
       {
         "week": 2,
-        "topic": "Search Algorithms",
-        "content": "Exploring search algorithms like BFS, DFS, and A*."
+        "topic": "Pages and Routing",
+        "content": "Creating dynamic routes and understanding the file-based routing system."
       },
       {
         "week": 3,
-        "topic": "Knowledge Representation",
-        "content": "Methods for representing knowledge in AI systems."
+        "topic": "Server-Side Rendering (SSR)",
+        "content": "Implementing SSR in Next.js and understanding its benefits."
       },
       {
         "week": 4,
-        "topic": "Machine Learning Basics",
-        "content": "Introduction to supervised and unsupervised learning."
+        "topic": "Static Site Generation (SSG)",
+        "content": "Generating static pages at build time and leveraging SSG for performance."
       },
       {
         "week": 5,
-        "topic": "Neural Networks",
-        "content": "Fundamentals of neural networks and deep learning."
+        "topic": "API Routes",
+        "content": "Building serverless functions and API routes within a Next.js application."
       },
       {
         "week": 6,
-        "topic": "Natural Language Processing",
-        "content": "Basic concepts in processing and understanding human language."
+        "topic": "Authentication in Next.js",
+        "content": "Implementing authentication and protecting routes in Next.js."
       },
       {
         "week": 7,
-        "topic": "Computer Vision",
-        "content": "Introduction to image processing and object recognition."
+        "topic": "CSS and Styling in Next.js",
+        "content": "Exploring styling options including CSS modules and styled components."
       },
       {
         "week": 8,
-        "topic": "Robotics",
-        "content": "Basics of robotics and autonomous systems."
+        "topic": "Next.js with Headless CMS",
+        "content": "Integrating Next.js with headless CMS platforms for content management."
       },
       {
         "week": 9,
-        "topic": "Ethics in AI",
-        "content": "Discussing ethical considerations in AI development and deployment."
+        "topic": "Optimizing Performance",
+        "content": "Techniques to improve the performance of Next.js applications."
       },
       {
         "week": 10,
-        "topic": "Future of AI",
-        "content": "Exploring potential future developments and applications of AI."
+        "topic": "Final Project: Building a Full Next.js Application",
+        "content": "Deploying a fully functional Next.js app to production using Vercel."
       }
     ],
     "students": [
       {
-        "name": "Schroeder",
-        "email": "schroeder@example.com"
+        "name": "Guillermo Rauch",
+        "email": "guillermo@example.com"
       },
       {
-        "name": "Franklin",
-        "email": "franklin@example.com"
+        "name": "Sarah Drasner",
+        "email": "sarah@example.com"
       }
     ],
     "likes": 0,
-    "rating": 2.8,
-    "reviews": 7
+    "rating": 4.8,
+    "reviews": 120
   },
   {
-    "name": "Cloud Computing with AWS",
-    "instructor": "Werner Vogels",
-    "description": "Learn to build and deploy applications on AWS, the leading cloud platform.",
+    "name": "The Ultimate C++ Series",
+    "instructor": "Bjarne Stroustrup",
+    "description": "Master C++ programming and build high-performance applications.",
     "enrollmentStatus": "Open",
-    "thumbnail": "https://via.placeholder.com/150x100?text=AWS",
-    "duration": "8 weeks",
-    "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+    "thumbnail": "https://codewithmosh.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2FlkYCN9UvRNFaLzywghPu&w=384&q=75",
+    "duration": "12 weeks",
+    "schedule": "Mondays and Wednesdays, 5:00 PM - 7:00 PM",
     "location": "Online",
     "prerequisites": [
-      "Basic knowledge of networking and web applications"
+      "Basic understanding of programming concepts",
+      "Familiarity with C syntax"
     ],
     "syllabus": [
       {
         "week": 1,
-        "topic": "Introduction to Cloud Computing",
-        "content": "Understanding the fundamentals of cloud computing and AWS."
+        "topic": "Introduction to C++",
+        "content": "Understanding C++ basics and setting up the development environment."
       },
       {
         "week": 2,
-        "topic": "AWS Core Services",
-        "content": "Exploring EC2, S3, and RDS services."
+        "topic": "C++ Data Types and Operators",
+        "content": "Exploring fundamental data types, operators, and expressions in C++."
       },
       {
         "week": 3,
-        "topic": "Networking in AWS",
-        "content": "Setting up VPCs, subnets, and security groups."
+        "topic": "Control Structures",
+        "content": "Learning about loops, conditionals, and control flow in C++."
       },
       {
         "week": 4,
-        "topic": "AWS Security",
-        "content": "Implementing security best practices in AWS."
+        "topic": "Functions in C++",
+        "content": "Defining and using functions, recursion, and function overloading."
       },
       {
         "week": 5,
-        "topic": "Serverless Computing",
-        "content": "Building serverless applications using AWS Lambda and API Gateway."
+        "topic": "Object-Oriented Programming",
+        "content": "Understanding classes, objects, constructors, and destructors."
       },
       {
         "week": 6,
-        "topic": "Database Management",
-        "content": "Managing databases with AWS RDS and DynamoDB."
+        "topic": "Inheritance and Polymorphism",
+        "content": "Implementing inheritance, polymorphism, and virtual functions."
       },
       {
         "week": 7,
-        "topic": "AWS Automation",
-        "content": "Automating deployments using AWS CloudFormation and AWS CLI."
+        "topic": "Templates and Exception Handling",
+        "content": "Using templates and handling exceptions in C++."
       },
       {
         "week": 8,
-        "topic": "Final Project: Deploying a Cloud Application",
-        "content": "Deploying a fully functional application on AWS."
+        "topic": "Memory Management",
+        "content": "Understanding dynamic memory, pointers, and smart pointers."
+      },
+      {
+        "week": 9,
+        "topic": "Standard Template Library (STL)",
+        "content": "Exploring STL containers, iterators, and algorithms."
+      },
+      {
+        "week": 10,
+        "topic": "Multithreading in C++",
+        "content": "Introduction to multithreading and concurrency in C++."
+      },
+      {
+        "week": 11,
+        "topic": "Advanced C++ Features",
+        "content": "Exploring advanced C++ features like move semantics and lambda expressions."
+      },
+      {
+        "week": 12,
+        "topic": "Final Project: Building a C++ Application",
+        "content": "Developing a complete application using C++ and STL."
       }
     ],
     "students": [
       {
-        "name": "Pig-Pen",
-        "email": "pigpen@example.com"
+        "name": "Linus Torvalds",
+        "email": "linus@example.com"
       },
       {
-        "name": "Frieda",
-        "email": "frieda@example.com"
+        "name": "Ada Lovelace",
+        "email": "ada@example.com"
       }
     ],
     "likes": 0,
-    "rating": 3.5,
-    "reviews": 66
+    "rating": 4.7,
+    "reviews": 150
   }
 ]

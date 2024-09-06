@@ -8,9 +8,12 @@ import UserDashboard from "./components/UserDashboard.jsx";
 import { fetchCourses } from "./redux/actions/courseActions";
 
 import { useDispatch } from "react-redux";
+import useSocket from "./hooks/useSocket.js";
+import PageNotFound from "./components/ErrorCards/PageNotFound.jsx";
 
 function App() {
   const dispatch = useDispatch();
+  const { socket, isConnected } = useSocket();
 
   useEffect(() => {
     dispatch(fetchCourses());
@@ -19,9 +22,19 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/course/:id" element={<CourseDetails />} />
-        <Route path="/dashboard" element={<UserDashboard />} />
+        <Route
+          path="/"
+          element={<Home socket={socket} isConnected={isConnected} />}
+        />
+        <Route
+          path="/course/:id"
+          element={<CourseDetails socket={socket} isConnected={isConnected} />}
+        />
+        <Route
+          path="/dashboard"
+          element={<UserDashboard socket={socket} isConnected={isConnected} />}
+        />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </Router>
   );
