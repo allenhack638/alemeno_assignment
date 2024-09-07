@@ -1,5 +1,6 @@
 const { Server } = require("socket.io");
 const Course = require("../models/course");
+const { formatDateTime } = require("../helpers/functions");
 require("dotenv").config(); // Load .env file
 
 let io;
@@ -12,7 +13,7 @@ const initializeWebSocket = (server) => {
   });
 
   io.on("connection", (socket) => {
-    console.log("New client connected:", socket.id);
+    console.log("Client connected:", socket.id, formatDateTime(new Date()));
 
     socket.on("updateLikesCount", async (data) => {
       try {
@@ -51,7 +52,11 @@ const initializeWebSocket = (server) => {
     });
 
     socket.on("disconnect", () => {
-      console.log("Client disconnected:", socket.id);
+      console.log(
+        "Client disconnected:",
+        socket.id,
+        formatDateTime(new Date())
+      );
     });
   });
 };

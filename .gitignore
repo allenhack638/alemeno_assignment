@@ -6,4 +6,8 @@ client/.env
 server/node_modules
 server/.env
 
+VideoRecording.mp4
+VideoRecording.zip
+
+
 
